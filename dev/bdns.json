@@ -1,110 +1,66 @@
-{
-    "dev.epi": {
-        "anchoringServices": [
-            "https://epi-frankfurt-dev.535161841476.cloud.bayer.com/",
-            "https://epi-dev.gsk.com/",
-            "https://dev.epi.jnj.com",
-            {
-                "headers": {
-                    "X-Merck-APIkey": "xNpZ54rBzHIjUTu1ED8GcUasjxPzZo8y"
-                },
-                "url": "https://epi.dev.merck.com"
-            },
-            "https://epidev.takeda.com/"
-        ],
-        "notifications": [
-            "https://epi-frankfurt-dev.535161841476.cloud.bayer.com/",
-            "https://epi-dev.gsk.com/",
-            "https://dev.epi.jnj.com",
-            {
-                "headers": {
-                    "X-Merck-APIkey": "xNpZ54rBzHIjUTu1ED8GcUasjxPzZo8y"
-                },
-                "url": "https://epi.dev.merck.com"
-            },
-            "https://epidev.takeda.com/"
-        ]
-    },
-    "dev.epi.bayer": {
-        "anchoringServices": [
-            "https://epi-frankfurt-dev.535161841476.cloud.bayer.com/"
-        ],
-        "brickStorages": [
-            "https://epi-frankfurt-dev.535161841476.cloud.bayer.com/"
-        ],
-        "notifications": [
-            "https://epi-frankfurt-dev.535161841476.cloud.bayer.com/"
-        ]
-    },
-    "dev.epi.gsk": {
-        "anchoringServices": [
-            "https://epi-dev.gsk.com/"
-        ],
-        "brickStorages": [
-            "https://epi-dev.gsk.com/"
-        ],
-        "notifications": [
-            "https://epi-dev.gsk.com/"
-        ]
-    },
-    "dev.epi.jnj": {
-        "anchoringServices": [
-            "https://dev.epi.jnj.com"
-        ],
-        "brickStorages": [
-            "https://dev.epi.jnj.com"
-        ],
-        "notifications": [
-            "https://dev.epi.jnj.com"
-        ]
-    },
-    "dev.epi.msd": {
-        "anchoringServices": [
-            {
-                "headers": {
-                    "X-Merck-APIkey": "xNpZ54rBzHIjUTu1ED8GcUasjxPzZo8y"
-                },
-                "url": "https://epi.dev.merck.com"
-            }
-        ],
-        "brickStorages": [
-            {
-                "headers": {
-                    "X-Merck-APIkey": "xNpZ54rBzHIjUTu1ED8GcUasjxPzZo8y"
-                },
-                "url": "https://epi.dev.merck.com"
-            }
-        ],
-        "notifications": [
-            {
-                "headers": {
-                    "X-Merck-APIkey": "xNpZ54rBzHIjUTu1ED8GcUasjxPzZo8y"
-                },
-                "url": "https://epi.dev.merck.com"
-            }
-        ]
-    },
-    "dev.epi.takeda": {
-        "anchoringServices": [
-            "https://epidev.takeda.com/"
-        ],
-        "brickStorages": [
-            "https://epidev.takeda.com/"
-        ],
-        "notifications": [
-            "https://epidev.takeda.com/"
-        ]
-    },
-    "vault": {
-        "anchoringServices": [
-            "$ORIGIN"
-        ],
-        "brickStorages": [
-            "$ORIGIN"
-        ],
-        "notifications": [
-            "$ORIGIN"
-        ],
-        "replicas": []
-    }
+{  "dev.epi": {
+    "anchoringServices": ["https://epi-dev.gsk.com/", "https://epidev.takeda.com/", {"url": "https://api-test.merck.com/digital-labelling/v1/", "headers": [{"key": "X-Merck-APIkey", "value": "xNpZ54rBzHIjUTu1ED8GcUasjxPzZo8y"}]}, "https://epi-frankfurt-dev.535161841476.cloud.bayer.com/", "https://intepitest.epi-jnj.com/"],
+    "notifications": ["https://epi-dev.gsk.com/", "https://epidev.takeda.com/", {"url": "https://api-test.merck.com/digital-labelling/v1/", "headers": [{"key": "X-Merck-APIkey", "value": "xNpZ54rBzHIjUTu1ED8GcUasjxPzZo8y"}]}, "https://epi-frankfurt-dev.535161841476.cloud.bayer.com/", "https://intepitest.epi-jnj.com/"]
+  },  "dev.epi.gsk": {
+      "brickStorages": [
+        "https://epi-dev.gsk.com/"
+      ],
+      "anchoringServices": [
+        "https://epi-dev.gsk.com/"
+      ],
+      "notifications": [
+        "https://epi-dev.gsk.com/"
+      ]
+  },  "dev.epi.takeda": {
+      "brickStorages": [
+        "https://epidev.takeda.com/"
+      ],
+      "anchoringServices": [
+        "https://epidev.takeda.com/"
+      ],
+      "notifications": [
+        "https://epidev.takeda.com/"
+      ]
+  },  "dev.epi.msd": {
+      "brickStorages": [
+        {"url": "https://api-test.merck.com/digital-labelling/v1/", "headers": [{"key": "X-Merck-APIkey", "value": "xNpZ54rBzHIjUTu1ED8GcUasjxPzZo8y"}]}
+      ],
+      "anchoringServices": [
+        {"url": "https://api-test.merck.com/digital-labelling/v1/", "headers": [{"key": "X-Merck-APIkey", "value": "xNpZ54rBzHIjUTu1ED8GcUasjxPzZo8y"}]}
+      ],
+      "notifications": [
+        {"url": "https://api-test.merck.com/digital-labelling/v1/", "headers": [{"key": "X-Merck-APIkey", "value": "xNpZ54rBzHIjUTu1ED8GcUasjxPzZo8y"}]}
+      ]
+  },  "dev.epi.bayer": {
+      "brickStorages": [
+        "https://epi-frankfurt-dev.535161841476.cloud.bayer.com/"
+      ],
+      "anchoringServices": [
+        "https://epi-frankfurt-dev.535161841476.cloud.bayer.com/"
+      ],
+      "notifications": [
+        "https://epi-frankfurt-dev.535161841476.cloud.bayer.com/"
+      ]
+  },  "dev.epi.jnj": {
+      "brickStorages": [
+        "https://intepitest.epi-jnj.com/"
+      ],
+      "anchoringServices": [
+        "https://intepitest.epi-jnj.com/"
+      ],
+      "notifications": [
+        "https://intepitest.epi-jnj.com/"
+      ]
+  },  "vault": {
+    "replicas": [],
+    "brickStorages": [
+      "$ORIGIN"
+    ],
+    "anchoringServices": [
+      "$ORIGIN"
+    ],
+    "notifications": [
+      "$ORIGIN"
+    ]
+  }
 }
