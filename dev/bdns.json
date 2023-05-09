@@ -1,6 +1,6 @@
 {  "dev.epi": {
-    "anchoringServices": ["https://epi-dev.gsk.com/", "https://epidev.takeda.com/", {"url": "https://api-test.merck.com/digital-labelling/v1/", "headers": [{"key": "X-Merck-APIkey", "value": "xNpZ54rBzHIjUTu1ED8GcUasjxPzZo8y"}]}, "https://epi-frankfurt-dev.535161841476.cloud.bayer.com/", "https://intepitest.epi-jnj.com/"],
-    "notifications": ["https://epi-dev.gsk.com/", "https://epidev.takeda.com/", {"url": "https://api-test.merck.com/digital-labelling/v1/", "headers": [{"key": "X-Merck-APIkey", "value": "xNpZ54rBzHIjUTu1ED8GcUasjxPzZo8y"}]}, "https://epi-frankfurt-dev.535161841476.cloud.bayer.com/", "https://intepitest.epi-jnj.com/"]
+    "anchoringServices": ["https://epi-dev.gsk.com/", "https://epidev.takeda.com/", {"url": "https://api-test.merck.com/digital-labelling/v1/", "headers": {"X-Merck-APIkey": "xNpZ54rBzHIjUTu1ED8GcUasjxPzZo8y"}}, "https://epi-frankfurt-dev.535161841476.cloud.bayer.com/", "https://intepitest.epi-jnj.com/"],
+    "notifications": ["https://epi-dev.gsk.com/", "https://epidev.takeda.com/", {"url": "https://api-test.merck.com/digital-labelling/v1/", "headers": {"X-Merck-APIkey": "xNpZ54rBzHIjUTu1ED8GcUasjxPzZo8y"}}, "https://epi-frankfurt-dev.535161841476.cloud.bayer.com/", "https://intepitest.epi-jnj.com/"]
   },  "dev.epi.gsk": {
       "brickStorages": [
         "https://epi-dev.gsk.com/"
@@ -23,13 +23,13 @@
       ]
   },  "dev.epi.msd": {
       "brickStorages": [
-        {"url": "https://api-test.merck.com/digital-labelling/v1/", "headers": [{"key": "X-Merck-APIkey", "value": "xNpZ54rBzHIjUTu1ED8GcUasjxPzZo8y"}]}
+        {"url": "https://api-test.merck.com/digital-labelling/v1/", "headers": {"X-Merck-APIkey": "xNpZ54rBzHIjUTu1ED8GcUasjxPzZo8y"}}
       ],
       "anchoringServices": [
-        {"url": "https://api-test.merck.com/digital-labelling/v1/", "headers": [{"key": "X-Merck-APIkey", "value": "xNpZ54rBzHIjUTu1ED8GcUasjxPzZo8y"}]}
+        {"url": "https://api-test.merck.com/digital-labelling/v1/", "headers": {"X-Merck-APIkey": "xNpZ54rBzHIjUTu1ED8GcUasjxPzZo8y"}}
       ],
       "notifications": [
-        {"url": "https://api-test.merck.com/digital-labelling/v1/", "headers": [{"key": "X-Merck-APIkey", "value": "xNpZ54rBzHIjUTu1ED8GcUasjxPzZo8y"}]}
+        {"url": "https://api-test.merck.com/digital-labelling/v1/", "headers": {"X-Merck-APIkey": "xNpZ54rBzHIjUTu1ED8GcUasjxPzZo8y"}}
       ]
   },  "dev.epi.bayer": {
       "brickStorages": [
